@@ -2,10 +2,12 @@ import Todo from "./components/Todo";
 
 function App() {
   return (
-    <>
-      <h1>ToDo App</h1>
+    <div className="flex flex-col p-4 justify-center w-full items-center">
+      <h1 className="font-bold text-4xl text-teal-700 tracking-widest font-mono underline">
+        ToDo App
+      </h1>
       <Todo />
-    </>
+    </div>
   );
 }
 
